@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HireME! | Kimberly Mejia</title>
+</head>
+<body>
+    <!-- WELCOME PAGE -->
+    <section class="welcome-page" id="welcome">
+        <div class="welcome-box">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover more about me and my journey.</p>
+
+            <button type="button" class="enter-button"
+                    onclick="enterPortfolio()">
+                Enter Portfolio
+            </button>
+        </div>
+    </section>
+
+    <!-- MAIN PORTFOLIO -->
+    <main id="portfolio-content">
+
+        <!-- SIDEBAR ARROW BUTTON -->
+        <button type="button"
+                class="nav-toggle"
+                id="navToggle"
+                onclick="toggleNav()"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            &#8250;
+        </button>
+
+        <!-- LEFT SIDEBAR -->
+        <nav class="portfolio-nav" id="portfolioNav">
+            <a href="#home-content" onclick="closeNav()">Home</a>
+            <a href="#skills" onclick="closeNav()">Skills</a>
+            <a href="#projects" onclick="closeNav()">Projects</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+            <a href="#about" onclick="closeNav()">About</a>
+        </nav>
+
+        <!-- HOME SECTION -->
+        <section class="content-section home-section" id="home-content">
+
+            <h3 class="home-title">Home</h3>
+
+            <div class="profile-container">
+                <img src="sea.jpg"
+                     class="cover-image"
+                     alt="Cover Photo">
+
+                <img src="candid - Copy.jpg"
+                     class="profile-image"
+                     alt="Kimberly Mejia">
+            </div>
+
+            <header class="profile-header">
+                <h2>Mejia, Kimberly</h2>
+                <p>💼 Aspiring Game Developer</p>
+            </header>
+
+            
+            <div class="home-content">
+                <p>Hello! Welcome to my personal portfolio.</p>
+
+                <p>
+                    Hi, I'm <strong>Kimberly Mejia</strong>, Im just a student
+                    who is interested in game development and web design.
+                    I enjoy exploring new ideas, learning how things work,
+                    and creating projects that allow me to improve my skills.
+                </p>
+
+                <p class="tagline">
+                    "Money can't buy happiness, but it can buy things
+                    that make me happy."
+                </p>
+            </div>
+
+        </section>
+
+        <!-- ABOUT ME -->
+        <section class="content-section" id="about">
+            <h3>About Me</h3>
+
+            <p>
+                I am Kimberly Mejia, a student who is interested
+                in game development, web design, and technology.
+                I enjoy learning new things, practicing my coding
+                skills, and creating projects that improve my
+                creativity and problem-solving abilities.
+            </p>
+
+            <div class="about-details">
+                <p>
+                    <strong>Course/Program:</strong>
+                    Association In Technology (ACT)
+                </p>
+
+                <p>
+                    <strong>School:</strong>
+                    Datamex College Of Saint Adeline
+                </p>
+
+                <p>
+                    <strong>Hobbies:</strong>
+                    Playing online games, listening to music,
+                    and exploring technology.
+                </p>
+
+                <p>
+                    <strong>Interests:</strong>
+                    Game development, web design, programming,
+                    and UI design.
+                </p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="content-section" id="skills">
+            <h3>My Skills</h3>
+
+            <p>
+                Here are some of the skills I am learning
+                and continuously improving.
+            </p>
+
+            <div class="skills-container">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">Animation</div>
+                <div class="skill-card">Drawing</div>
+                <div class="skill-card">Game Development</div>
+                <div class="skill-card">Cooking</div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="content-section" id="projects">
+            <h3>My Projects</h3>
+
+            <p class="projects-intro">
+                Here are some of my school and practice projects.
+            </p>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+                    <img src="Stdash.png"
+                         class="project-image"
+                         alt="Student Dashboard">
+
+                    <h4>Student Dashboard</h4>
+
+                    <p>
+                        A dashboard design where students can
+                        view their profile, class schedule,
+                        academic information, and announcements.
+                    </p>
+
+                    <p class="technology">
+                        <strong>Technologies Used:</strong>
+                        HTML and CSS
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <img src="stlog.png"
+                         class="project-image"
+                         alt="LoginForm">
+
+                    <h4>Login Form</h4>
+                    <p>
+                        A simple login interface designed to practice arranging
+                        input fields, buttons, and other basic website elements.
+                    </p>
+
+                    <p class="technology">
+                        <strong>Technologies Used:</strong>
+                        HTML and CSS
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <img src="streg.png"
+                         class="project-image"
+                         alt="Registration Form">
+
+                    <h4>Registration Form</h4>
+
+                    <p>
+                        A simple registration form that organizes
+                        personal information in a clear and
+                        user-friendly layout.
+                    </p>
+
+                    <p class="technology">
+                        <strong>Technologies Used:</strong>
+                        HTML and CSS
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="content-section" id="contact">
+            <h3>Contact Me</h3>
+
+            <p>
+                Email:
+                <a href="mailto:kimkimmejia1@gmail.com">
+                    kimkimmejia1@gmail.com
+                </a>
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1DfsSFAvdE/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Facebook
+                </a>
+
+                <a href="https://www.instagram.com/kei0wk/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Instagram
+                </a>
+            </div>
+
+            <a href="mailto:kimkimmejia1@gmail.com"
+               class="hire-button">
+                Hire Me
+            </a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; Kimmy2007</p>
+        </footer>
+
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function enterPortfolio() {
+            document.getElementById("welcome").style.display = "none";
+
+            document.getElementById("portfolio-content")
+                .classList.add("show-portfolio");
+
+            window.scrollTo(0, 0);
+        }
+
+        function toggleNav() {
+            const nav = document.getElementById("portfolioNav");
+            const arrow = document.getElementById("navToggle");
+
+            const isOpen = nav.classList.toggle("open");
+
+            arrow.classList.toggle("open", isOpen);
+
+            arrow.innerHTML = isOpen
+                ? "&#8249;"
+                : "&#8250;";
+
+            arrow.setAttribute("aria-expanded", String(isOpen));
+        }
+
+        function closeNav() {
+            const nav = document.getElementById("portfolioNav");
+            const arrow = document.getElementById("navToggle");
+
+            nav.classList.remove("open");
+            arrow.classList.remove("open");
+
+            arrow.innerHTML = "&#8250;";
+            arrow.setAttribute("aria-expanded", "false");
+        }
+    </script>
+
+</body>
+</html>
+
